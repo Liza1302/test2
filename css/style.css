@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    height: 100%;
+}
+
+body
+{
+    height: 100%;
+    background-image:url(../img/2.jpg) ;
+    background-repeat:no-repeat;
+    background-color: rgb(116, 187, 192);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+
+header {
+    background: lavender;
+    text-align: center;
+    padding: 30px 0;
+}
+footer {
+    background: lightblue;
+    padding: 30px 100px;
+}
+.about {
+    padding: 30px 100px;
+}
+.articles {
+    background: pink;
+    padding: 30px 100px; 
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.about_img {
+    width: 400px;
+    display: block;
+    margin: 20px auto;
+}
+/*1em = 16px
+1rem = раземр шрифта у тега html*/
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.list {
+    margin-left: 50px;
+   
+}
+
+nav {
+    background: lightblue;
+    padding: 10px 100px;
+}
+
+
+
+.main-menu
+{
+    list-style: none;
+    text-align: center;
+}
+
+.menu-item
+{
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 10px;
+}
+
+
+a:link
+{
+    color: rgb(102, 37, 0);
+}
+
+a:visited
+{
+    color: rgb(7, 0, 32);
+
+}
+
+a:hover
+{
+    color: palegreen;
+}
+
+a:active
+{
+    color: powderblue;
+
+}
+
+.menu-item a
+{
+    background: gold ;
+    border: lawngreen 1px solid ;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 5px;
+    color: tomato;
+}
+.main-menu a:hover,
+.main-menu a:focus
+{
+    background: hotpink;
+    color: azure;
+
+}
+
+
+.list li:nth-child(2n)
+{
+    background: aquamarine;
+}
+
+.list li
+{
+    background-color: bisque;
+}
+
+.new::before
+{
+    content: "Новинка!";
+    display: block; 
+    font-size: 1em;
+    color: rgb(59, 119, 25) ;
+    border: dotted olive 2px ;
+}
+.price
+{
+    border: solid fuchsia 2px;
+    border-collapse: collapse;
+}
+.price td,
+.price th
+{
+    border: solid purple 1px;
+    text-align: center;
+}
+
+.price tbody tr:nth-child(odd)
+{
+    background-color: blueviolet;
+}
+.price td:nth-child(3)
+{
+    width: 50%;
+}
+
+.reg
+{
+    padding: 30px 100px;
+}
+
+#registration
+{
+    border: 1px solid forestgreen;
+    margin: 0 auto;
+    width: 290px;
+    padding: 20px;
+    background-color: rgba(255, 251, 0, 0.25);
+}
+
+#registration input[ type="text" ]
+#registration input[ type="password" ]
+#registration input[ type="select" ]
+{
+    width: 170px;
+    height: 49px;
+    margin: 5px;
+}
+
+#registration input[ type="submit" ]
+{
+    background-color: rgb(193, 155, 224);
+    padding: 7px;
+    margin: 5px ;
+    border-radius:5px ;
+    border: none;
+
+    
+}
+
+#registration input[ type="submit" ]:hover
+{
+    background-color: rgb(113, 53, 163);
+}
+
+a[href^="http"]
+{
+    background-color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*------Стили див--------*/
+.block1,  .link1
+{
+    background: rgb(233, 109, 128);
+}
+
+.block2,  .link2
+{
+    background: rgb(80, 214, 255);
+    margin: 50px;
+    padding: 30px;
+    border: 5px solid burlywood;
+}
+
+.block3,  .link3
+{
+    background: rgb(250, 208, 68);
+}
+
+.block
+{
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border: none;
+
+}
+
+.link
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
